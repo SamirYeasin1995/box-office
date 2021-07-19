@@ -1,7 +1,9 @@
+/* eslint-disable arrow-body-style */
 import React from 'react';
+import MainPageLayout from '../components/MainPageLayout';
 
 const Home = () => {
-  <div>This is Home</div>;
+  return <MainPageLayout>This is the homepage</MainPageLayout>;
 };
 
 export default Home;
